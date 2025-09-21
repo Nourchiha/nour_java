@@ -17,7 +17,6 @@ public class Zoo {
         System.out.println("Zoo: " + name + " | Ville: " + city + " | Nombre de cages: " + nbrCages);
     }
 
-    // Redéfinition de toString()
 
     public String toString() {
         return "Zoo{name='" + name + "', city='" + city + "', nbrCages=" + nbrCages + "}";
