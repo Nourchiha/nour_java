@@ -14,12 +14,12 @@ public class Zoo {
     }
 
     public void displayZoo() {
-        System.out.println("Zoo: " + name + " | Ville: " + city + " | Nombre de cages: " + nbrCages);
+        System.out.println(" " + name + " |" + city + " |  " + nbrCages);
     }
 
     @Override
     public String toString() {
-        return "Zoo{name='" + name + "', city='" + city + "', nbrCages=" + nbrCages + "}";
+        return "Zoo{'" + name + "',='" + city + "', " + nbrCages + "}";
     }
 
     public boolean addAnimal(Animal animal) {

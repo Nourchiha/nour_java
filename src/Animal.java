@@ -17,6 +17,6 @@ public class Animal {
 
 
     public String toString() {
-        return "nimal{name='" + name + "', family='" + family + "', age=" + age + ", isMammal=" + isMammal + "}";
+        return "animal{name='" + name + "',='" + family + "', age=" + age + ", isMammal=" + isMammal + "}";
     }
 }
