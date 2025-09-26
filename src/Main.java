@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Animal lion = new Animal("Felidae", "Lion", 5, true);
+        Animal lion = new Animal("F", "Lion", 8, true);
 
-        Zoo myZoo = new Zoo("Safari Park", "Tunis", 25);
+        Zoo myZoo = new Zoo("Park", "Tunis", 29);
 
         myZoo.displayZoo();
         lion.displayAnimal();
